@@ -1,4 +1,4 @@
-package com.arun
+package Begin
 
 object Anagram {
   def main(args: Array[String]) {

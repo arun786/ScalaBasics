@@ -1,4 +1,4 @@
-package MethodCall
+package Collection
 
 object UseOfArrays {
   

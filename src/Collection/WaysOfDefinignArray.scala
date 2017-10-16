@@ -1,4 +1,4 @@
-package MethodCall
+package Collection
 
 object WaysOfDefinignArray {
   def main(args : Array[String]){
