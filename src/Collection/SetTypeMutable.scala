@@ -14,6 +14,12 @@ object SetTypeMutable {
 
     Set(1, 2, abc, 3)
     Set(1, 2, abc, 3)*/
+    
+    
+    val _setImmutable = scala.collection.immutable.Set(1,2,3,"abc")
+    println(_setImmutable)
+    
+   /* Set(1, 2, 3, abc)*/
 
   }
 }
