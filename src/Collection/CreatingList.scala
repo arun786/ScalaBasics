@@ -1,6 +1,6 @@
 package Collection
 
-object ToCreateList {
+object CreatingList {
   def main(args : Array[String]){
     var abc = List(1,2,3)
     println(abc)
