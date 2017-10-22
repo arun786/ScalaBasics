@@ -1,6 +1,6 @@
 package Collection
 
-object WaysOfDefinignArray {
+object CreatingArray {
   def main(args : Array[String]){
     var nM = Array("one","two","three")
     println(nM.apply(0)); //one
