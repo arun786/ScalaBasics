@@ -11,6 +11,6 @@ object DifferenceBetweenequalandeq {
     
     println(_123.tail == _123Another.tail) //this will be true as the value in both are 1,2
     
-    println(_123.tail.eq(_123Another.tail)) //this will be true
+    println(_123.tail.eq(_123Another.tail)) //this will be true since there is only one in memory
   }
 }
