@@ -9,5 +9,7 @@ object ListAreHomogenous {
     /*Any 
     AnyVal
     Int */
+    
+    /*which means List are homogenous in type*/
   }
 }
