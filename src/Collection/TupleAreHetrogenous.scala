@@ -9,5 +9,12 @@ object TupleAreHetrogenous {
       println("Value is true")
     }
    println(myTup) //on REPL it will give the output as myTup: (String, Boolean, Int) = (hello,true,1)
-  }
+   
+   val(a,b,c) = myTup
+   //In REPL it will provide the below results
+   /*
+    a: String = hello
+    b: Boolean = true
+    c: Int = 1
+*/  }
 }
