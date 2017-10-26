@@ -1,4 +1,4 @@
-package Sets
+package ImmutableSets
 
 object SetContains {
  

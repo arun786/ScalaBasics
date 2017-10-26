@@ -1,4 +1,4 @@
-package Sets
+package ImmutableSets
 
 object SetUnion {
   def main(args : Array[String]){

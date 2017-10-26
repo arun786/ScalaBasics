@@ -1,4 +1,4 @@
-package Sets
+package ImmutableSets
 
 import scala.collection.mutable.Set
 
