@@ -11,7 +11,5 @@ object ScalaOperationsonSets {
     
     var s3 = s2 ++ List(5,6);
     println(s3); //Set(5, 1, 6, 2, 3, 4)
-    
-    
   }
 }
