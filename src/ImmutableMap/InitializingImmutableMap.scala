@@ -12,6 +12,13 @@ object InitializingImmutableMap {
     println(states.get(2)); //Some(two)
     println(states(3)); //three
     println(states.apply(1)); //one
+    
+    
+    var number = Map(1 -> "One", 2 -> "Two");
+    println(number);
+    println(number(1));
+    
+    //number(1) = "one"; //update not available for Immutable Map
 
   }
 }
