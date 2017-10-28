@@ -14,6 +14,13 @@ object AddDataToImmutableMap {
     println(color); //Map(1 -> Green, 2 -> Yellow, 3 -> Blue, 4 -> White)
 
     //color(1) = "Brown" //reassigning is not allowed
+    
+    val number = Map(1 -> 1);
+    println(number(1));
+    
+    val num = Map.empty[Int,Int];
+    //num += (1 -> 1); this wont work
+    
 
   }
 }
