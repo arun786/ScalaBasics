@@ -2,11 +2,11 @@ package Generic
 
 import scala.io.Source
 
-object ReadingAFile {
+object ReadingAFileInTheSamePackage {
   def main(args: Array[String]): Unit = {
 
     var path = System.getProperty("user.dir");
-
+    
     path += "\\src\\Generic\\";
     path += args(0);
     println(path);
