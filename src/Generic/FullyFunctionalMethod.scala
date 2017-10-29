@@ -5,6 +5,8 @@ object FullyFunctionalMethod {
     var args = Array("Hello", "World");
 
     def formatArgs(args: Array[String]): String = args.mkString("\n");
+    
+    println(formatArgs(args));
 
     if (formatArgs(args) == "Hello\nWorld") {
       println("it matches");
