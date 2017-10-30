@@ -1,4 +1,4 @@
-package ClassesAndObjects
+package Collection
 
 object CompanionObject {
 
