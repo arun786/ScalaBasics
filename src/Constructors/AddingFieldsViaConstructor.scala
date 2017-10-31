@@ -27,7 +27,7 @@ object AddingFieldsViaConstructor extends App {
 }
 
 class Divide(n: Int, d: Int) {
-  require(n != 0, "d cannot be zero");
+  require(d != 0, "d cannot be zero");
 
   override def toString: String = n + "/" + d;
 
