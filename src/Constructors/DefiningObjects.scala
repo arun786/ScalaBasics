@@ -8,6 +8,8 @@ object DefiningObjects {
 
     var result = onehalf + oneNinth;
     println(result); //11/18
+
+    println(onehalf + 4); //9/2
   }
 
 }
@@ -20,5 +22,9 @@ class Divides(var num: Int, var den: Int) {
 
   def +(that: Divides): Divides = {
     new Divides(num * that.den + den * that.num, den * that.den);
+  }
+
+  def +(i: Int): Divides = {
+    new Divides(num + i * den, den);
   }
 }
