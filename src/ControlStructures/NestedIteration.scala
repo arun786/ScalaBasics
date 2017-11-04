@@ -14,6 +14,6 @@ object NestedIteration extends App {
 
   /*This program will list all the files from the directory ./src/ControlStructures
   Iterate using for loop
-  filter out the files which ends with .scala
+  filter out the files which ends with scala
   and display the contents line by line*/
 }
