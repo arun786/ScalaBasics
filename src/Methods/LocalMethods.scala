@@ -10,10 +10,10 @@ object LocalMethodsDefined {
 
   def callPrivateMethod(num1: Int, num2: Int): Int = {
 
-    def multiplyTwoNumbers(num1: Int, num2: Int): Int = {
+    def multiplyTwoNumbers(): Int = {
       num1 * num2;
     }
-    multiplyTwoNumbers(num1, num2);
+    multiplyTwoNumbers();
   }
 
 }
