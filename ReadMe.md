@@ -2,4 +2,36 @@
 
 Basics of Scala
 
-1. 
+We use REPL for understanding the basics of Scala
+
+Scala Intrepreter : REPL - Read Evaluate Print and Loop
+
+scala> 1 + 1
+res0: Int = 2
+
+scala> 1.0 + 1
+res1: Double = 2.0
+
+scala> res0 + 2
+res1: Int = 4
+
+scala> println("hello, world")
+hello, world
+
+scala> val msg = "hello, world"
+msg: String = hello, world
+
+scala> val msg = "hello,world"  //val is final in scala, it cannot be reassigned
+msg: String = hello,world
+
+scala> println(msg)
+hello,world
+
+scala> msg = "arun"
+<console>:12: error: reassignment to val
+       msg = "arun"
+
+scala> var msg = "Arun" //var is not final and can be reassigned
+msg: String = Arun
+
+
