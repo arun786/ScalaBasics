@@ -1,6 +1,6 @@
 # Scala
 
-Basics of Scala
+## Basics of Scala
 
 We use REPL for understanding the basics of Scala
 
@@ -33,5 +33,38 @@ scala> msg = "arun"
 
 scala> var msg = "Arun" //var is not final and can be reassigned
 msg: String = Arun
+
+
+to load a file which is written in vim, we can use 
+scala> :load <name of the file>
+
+to quit from scala
+scala> :q
+
+## if then else condition in scala
+
+scala> val a = 1
+a: Int = 1
+
+scala> val b = 2
+b: Int = 2
+
+scala> :paste
+// Entering paste mode (ctrl-D to finish)
+
+if ( a > b)
+println(a)
+else
+println(b)
+
+// Exiting paste mode, now interpreting.
+
+o/p is 2
+
+## ternary operator in Scala
+
+scala> val m = if ( a > b ) a else b
+m: Int = 2
+
 
 
