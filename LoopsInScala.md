@@ -8,5 +8,19 @@
 	
 # For Loop
 
+one way
+
 	for(arg <- args)
 	println(arg)
+	
+second way
+
+	args.foreach(arg => println(arg))
+
+third way
+
+	args.foreach(println)
+
+Fourth way
+	
+	args foreach println
