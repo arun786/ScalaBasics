@@ -11,3 +11,23 @@
 
 		val fruits = Array("Apple", "Banana", "Orange")
 		for(fruit <- fruits) println(fruit)
+
+## Mutable Array - ArrayBuffer
+
+		Mutable Array String are arrays which can grow in size.
+
+		object MuttableScalaArrays {
+		  def main(args: Array[String]): Unit = {
+		    var fruits = ArrayBuffer[String]();
+		    fruits += "Apple"
+		    fruits += "Banana"
+		    fruits += "Oranges"
+		
+		    for (fruit <- fruits) println(fruit)
+		  }
+		}
+		
+		var fruitArray = fruits.toArray //To Array method will convert ArrayBuffer to Array
+    	for(fruit <- fruitArray) println(fruit)
+    	
+### Adding element to an Array is not possible, for that we require ArrayBuffer
