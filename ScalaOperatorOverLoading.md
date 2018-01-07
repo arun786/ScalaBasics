@@ -11,5 +11,8 @@ Actually Scala has Symbolic links, it does not have operator overloading
 		    println(a.+(b))
 		    
 		    println(3.-(2))
+		    
+		    println("hello".charAt(0))
+    		 println("hello" charAt 0)
 		  }
 		}
