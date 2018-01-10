@@ -42,4 +42,22 @@ List are Immutable in scala, values of List cannot be changed by Assignment, Lis
 		
 		val cubes = List.tabulate(6)(n => n * n * n)
 		println(cubes)
-	
+
+## Concatinate and Cons
+
+	val oneTwo = List(1, 2)
+    val threeFour = List(3, 4)
+
+    val oneTwothreeFour = oneTwo ::: threeFour
+    println(oneTwothreeFour) //o/p will be List(1,2,3,4)
+    println(oneTwo) //o/p will be List(1,2)
+    println(threeFour) //o/p will be List(3,4)
+
+    val newthreeFour = 1 :: threeFour //cons 
+    println(newthreeFour) //o/p will be List(1,3,4)
+
+    //val oneThreeFour = (1).::threeFour //This wont compile
+    val oneThreeFour = threeFour.::(1) 
+    println(oneThreeFour) //o/p will be 1,3,4
+    
+    
