@@ -82,5 +82,11 @@ List are Immutable in scala, values of List cannot be changed by Assignment, Lis
 		for (a <- newLst) print(a + " ")
 		  }
 		}
+		
+		 /**
+		 * Converting List to an Array, removes Duplicate
+		 */
+		val newSet = newList.toSet
+		for (a <- newSet) print(a + " ")
 		    
     
