@@ -59,5 +59,28 @@ List are Immutable in scala, values of List cannot be changed by Assignment, Lis
     //val oneThreeFour = (1).::threeFour //This wont compile
     val oneThreeFour = threeFour.::(1) 
     println(oneThreeFour) //o/p will be 1,3,4
-    
+
+## Convert Array to List and Vice Versa
+
+
+	object ConversionOfArrayToListAndViceVersa {
+		def main(args: Array[String]): Unit = {
+		val lst = List(1, 2, 3)
+		println(lst)
+		
+		/**
+		 * we can convert List to an Array
+		 */
+		val arry = lst.toArray
+		for (a <- arry) print(a + " ")
+		
+		/**
+		 * Convert Array to List
+		 */
+		
+		val newLst = arry.toList
+		for (a <- newLst) print(a + " ")
+		  }
+		}
+		    
     
